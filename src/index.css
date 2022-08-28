@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+input {
+  @apply outline-0;
+}
