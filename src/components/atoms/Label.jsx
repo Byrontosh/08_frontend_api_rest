@@ -14,6 +14,7 @@ export const Label = ({ description, htmlFor, styles }) => {
     );
 }
 
+
 Label.propTypes = {
     description: PropTypes.string.isRequired,
     htmlFor: PropTypes.string.isRequired,
